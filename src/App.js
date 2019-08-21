@@ -4,10 +4,13 @@ import './App.css';
 
 import Page from './components/Page/Page'
 
-function App() {
-  return (
-    <Page />
-  );
+class App extends React.Component {
+    render()
+    {
+        return (
+            <Page/>
+        )
+    }
 }
 
 export default App;
