@@ -10,9 +10,9 @@ class Page extends React.Component {
                 <Header />
 
                 <Body>
-                    <div class="item">1</div>
-                    <div class="item">2</div>
-                    <div class="item">3</div>
+                    <div className="item">1</div>
+                    <div className="item">2</div>
+                    <div className="item">3</div>
                 </Body>
             </Fragment>
         )
