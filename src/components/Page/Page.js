@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 
 import Header from './Header.js';
+import Navigation from './Navigation.js';
 import Body from './Body.js';
 
 class Page extends React.Component {
@@ -8,6 +9,7 @@ class Page extends React.Component {
         return (
             <Fragment>
                 <Header />
+                <Navigation />
 
                 <Body>
                     <div className="item">1</div>
