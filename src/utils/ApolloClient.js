@@ -9,8 +9,6 @@ const httpLink = createHttpLink({
     uri: GRAPHQL_ENDPOINT
 })
 
-console.log(GRAPHQL_ENDPOINT);
-
 export const client = new ApolloClient({
     link: httpLink,
     cache: new InMemoryCache()
